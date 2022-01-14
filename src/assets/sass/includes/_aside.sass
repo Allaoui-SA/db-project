@@ -1,0 +1,145 @@
+.aside__left
+  overflow: scroll
+  -ms-overflow-style: none
+  scrollbar-width: none
+  padding-top: 24px
+
+  // &::-webkit-scrollbar
+  //   display: none
+
+  ul
+    &.navigation
+      li
+        padding:  0 8px
+        font-weight: 500
+        a
+          display: flex
+          align-items: center
+          height: 52px
+          padding: 0 8px
+          border-radius: 8px
+          text-decoration: none
+          color: #050505
+          &:hover
+            background-color: #E4E6E9
+            cursor: pointer
+          &:first-child
+            img
+              border-radius: 50%
+          img
+            width: 36px
+            height: 36px
+            margin: 8px 12px 8px 0
+
+          i
+            width: 36px
+            height: 36px
+            background-color: lighten($color-grey, 50)
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-right: 12px
+    &.navigation-1
+      display: block
+    &.navigation-2
+      display: none
+  footer
+    padding: 16px
+    font-size: 13px
+    span
+      color: #65676B
+      ul
+        li
+          display: inline-block
+          list-style-type: disc
+          line-height: 1.2308
+          color: #65676B
+          a
+            &:hover
+              text-decoration: underline
+              cursor: pointer
+          .icon__pub
+            i
+              background-image: url(https://www.facebook.com/rsrc.php/v3/yc/r/rmNUZDV3D_7.png)
+              background-position: -145px -109px
+              background-size: 189px 139px
+              width: 12px
+              height: 12px
+              background-repeat: no-repeat
+              display: inline-block
+              position: relative
+              top: 2px
+              color: #65676B
+              filter: invert(39%) sepia(21%) saturate(200%) saturate(109.5%) hue-rotate(174deg) brightness(94%) contrast(86%)
+
+.aside__right
+  padding: 24px 10px 0 10px
+
+  h2
+    color: $color-grey
+    font-size: 1.0625rem
+    font-weight: 600
+    margin: 10px 0
+
+    a
+      float: right
+      margin: 0 10px
+      
+      svg
+        fill: $color-grey
+
+  article
+    padding: 10px 0 20px 0
+    
+    &:nth-child(2)
+      border: solid 1px lighten($color-grey, 40)
+      border-left: none
+      border-right: none
+
+    &:nth-child(3)
+      span
+        border-radius: 50%
+        width: 30px
+        height: 30px
+        background-color: #e4e6eb
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 10px 0 0
+        
+.contact
+  display: flex
+  align-items: center
+  height: 44px
+  padding: 10px 5px
+  width: 100%
+  color: black
+  text-decoration: none
+  border-radius: 7px
+  font-weight: 500
+
+  &:hover
+    background-color: rgba(228, 230, 232, 1)
+
+  img
+    width: 30px
+    border-radius: 50%
+    margin: 0 10px 0 0
+
+#new-message
+  position: fixed
+  bottom: 16px
+  right: 16px
+  background-color: white
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1),0 12px 28px rgba(0, 0, 0, .2)
+  width: 48px
+  height: 48px
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 50%
+  color: black
+
+  i
+    font-size: 20px

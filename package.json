@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.48.0"
+  },
+  "name": "exofacebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./src/assets/sass/style.sass:./assets/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
